@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+        body{
+            max-width: 1200px;
+            font-family: montserrat,Montserrat;
+            padding: 0 20px;
+            margin: 20px auto;
+            background-color: rgb(239, 244, 247);
+            }
+        h1,h2,ul,li,p,a{
+            padding: 0;
+            margin: 0;
+            color: rgb(29, 39, 59);
+            text-decoration: none;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid rgb(176, 188, 212);
+            text-transform: uppercase;
+        }
+        nav ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+       nav li{
+          list-style: none;
+          margin-left: 20px;
+       }
+       h1{
+           font-size: 2.5 em;
+       }
+       nav p,nav a{
+           color: rgb(57, 79, 124);
+           font-weight: 400;
+       }
+       footer{
+           position:fixed;
+           text-align: center;
+           color: rgb(68, 33, 97);
+           bottom:20px;
+           margin-left: 33vw; 
+       }
+       h2{
+           margin-bottom: 32px;
+       }
+       .blog-name{
+           color: rgb(144, 54, 218);
+       }
+       .content{
+           margin-left: 20px;
+       }
+       .create-blogs form{
+           max-width: 500px;
+           margin:0 auto;
+       }
+       .create-blogs input,.create-blogs textarea{
+           display: block;
+           width: 100%;
+           margin:10px 0;
+           padding:10px;
+           border: 1.4px solid;
+           border-radius: 5px;
+       }
+       textarea{
+           height: 200px;
+       }
+       .create-blogs label{
+           display: block;
+           margin-top:20px;
+       }
+       .create-blogs button{
+           background-color: rgb(131, 199, 75);
+           color:rgb(0, 0, 0);
+           padding: 10px 15px;
+           text-align: center;
+           font-size: 1em;
+           border: 0;
+           margin-top: 15px;
+           border-radius: 20px;
+           cursor: pointer;
+       }
+       .content a{
+           display: block;
+           margin: 50px 0;
+           padding-left: 35px;
+           border-left: 7px solid red;
+       }
+       .title:hover{
+           color: red;
+       }
+       .details-content{
+           position: relative;
+       }
+       .delete{
+           background-color: rgb(243, 114, 114);
+           position: absolute;
+           top:0;
+           right: 0;
+           border-radius: 7px;
+           padding: 8px 10px;
+           size: 100px;
+       }
+       .delete:hover{
+           background-color: red;
+           color: rgb(253, 249, 249);
+           cursor: pointer;
+       }
+       
